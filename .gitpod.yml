@@ -1,5 +1,13 @@
+# .gitpod.yml
+
+image:
+  file: .gitpod.Dockerfile
+
 ports:
   - port: 25565
-    onOpen: ignore
+    onOpen: open-preview
     visibility: public
 
+tasks:
+  - name: Start Docker Compose
+    command: docker-compose up
