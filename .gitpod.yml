@@ -1,0 +1,5 @@
+ports:
+  - port: 25565
+    onOpen: ignore
+    visibility: public
+
