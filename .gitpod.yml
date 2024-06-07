@@ -1,8 +1,5 @@
 # .gitpod.yml
 
-image:
-  file: .gitpod.Dockerfile
-
 ports:
   - port: 25565
     onOpen: open-preview
